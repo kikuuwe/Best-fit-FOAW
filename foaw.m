@@ -18,7 +18,7 @@ function [b_out, u_buf] = foaw(u, u_buf_old, UM, T)
 			sum_u  = sum_u  + u  ;
 			sum_tu = sum_tu + t*u;
 		end
-		sum_t  = -   T*i*(i-1)/2         ; 
+		sum_t  = -   T*i*(i-1)/2         ; %% Sum_{k=0}^i (-(k-1)*T)  
 		sum_tt =   T*T*i*(i-1)*(2*i-1)/6 ;
 		tb     = sum_t/i;
 		ub     = sum_u/i;
