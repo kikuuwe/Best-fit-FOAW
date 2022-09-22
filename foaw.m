@@ -3,7 +3,7 @@ function [b_out, u_buf] = foaw(u, u_buf_old, UM, T)
 	% This is an implementation of the best-fit-FOAW (First-Order-Adaptive-Windowing), proposed by the following paper:
 	% - Janabi-Sharifi, Hayward, Chen: "Discrete-time Adaptive Windowing for Velocity Estimation", IEEE-TCST, 2000.
 	%    DOI: 10.1109/87.880606
-	% Slightly different expressions are used but it is analytically identical to Janabi-Sharifi's original work.
+	% It is using slightly different expressions but is analytically identical to Janabi-Sharifi's original work.
 	% b_out is supposed to be the best-fit slope, which is the derivative of u.
 	%
 	NN     = length(u_buf_old);
