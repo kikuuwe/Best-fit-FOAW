@@ -1,7 +1,10 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Test program illustrates how to use the function "foaw".
 % The input is "u" and the output is "v". 
 % "v" is supposed to be the time derivative of "u",
 % but "u" is contaminated by noise.
+% Copyright (c) 2022, Ryo Kikuuwe
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 clear;
 close all;
 T   = 0.002;  %%%% Sampling interval
